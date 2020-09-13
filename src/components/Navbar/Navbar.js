@@ -30,7 +30,7 @@ const Navbar = () => {
                 <NavbarContainer>
                     <NavLogo to="/">
                         <NavIcon />
-                        KYLE SETO
+                        K.SETO
                     </NavLogo>
                     <MobileIcon onClick={handleClick}>
                         {click ? <FaTimes /> : <FaBars />}
@@ -47,11 +47,11 @@ const Navbar = () => {
                         </NavItem>
                         <NavItemBtn>
                             {button ? (
-                                <NavBtnLink to="/Contact Me">
-                                    <Button primary>Contact Me</Button>
+                                <NavBtnLink to="/Contact-Me">
+                                    <Button primary>Contact me</Button>
                                 </NavBtnLink>
                             ) : (
-                                <NavBtnLink to="/Contact Me">
+                                <NavBtnLink to="/Contact-Me">
                                     <Button fontBig primary>
                                         Contact Me
                                     </Button>

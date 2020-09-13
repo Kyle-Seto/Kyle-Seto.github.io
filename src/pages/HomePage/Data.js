@@ -1,13 +1,15 @@
 export const homeObjOne = {
-    lightBg: false,
     primary: true,
     lightBg: false,
     imgStart: '',
     lightTopLine: true,
     lightTextDesc: true,
-    buttonLabel: 'Check Projects',
-    description: 'Thank you for checking out my website.',
-    headline: 'Hello there',
+    buttonLabel: 'Check out my projects',
+    description: 'welcome to my site .',
+    headline: 'Kyle Seto',
     lightText: true,
-    topLine: 'Kyle Seto' 
+    topLine: 'Hi, my name is',
+    img: '',
+    alt: 'Image',
+    start: ''
 };
