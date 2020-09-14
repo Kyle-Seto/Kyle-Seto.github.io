@@ -30,7 +30,6 @@ const Navbar = () => {
                 <NavbarContainer>
                     <NavLogo to="/">
                         <NavIcon />
-                        K.SETO
                     </NavLogo>
                     <MobileIcon onClick={handleClick}>
                         {click ? <FaTimes /> : <FaBars />}

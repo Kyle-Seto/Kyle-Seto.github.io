@@ -15,7 +15,7 @@ import { InfoSec,
 const InfoSection = ({ primary, 
     lightBg, imgStart, lightTopLine, lightTextDesc, 
     buttonLabel, description, headline, lightText, 
-    topLine, img, alt, start
+    topLine, img, alt, start, link
 } ) => {
     return (
         <>
@@ -27,7 +27,7 @@ const InfoSection = ({ primary,
                                 <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
                                 <Heading lightText={lightText}>{headline}</Heading>
                                 <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
-                                <Link to='/Projects'>
+                                <Link to={link}>
                                     <Button big fontBig primary={primary}>
                                         {buttonLabel}
                                     </Button>
