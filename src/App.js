@@ -4,7 +4,6 @@ import { Navbar, Footer } from './components';
 import Home from './pages/HomePage/Home';
 import About from './pages/About Me/About';
 import Contact from './pages/Contact Me/Contact';
-import Projects from './pages/Projects/Projects';
 import GlobalStyle from './globalStyles';
 
 function App() {
@@ -14,8 +13,7 @@ function App() {
       <Navbar />
       <Switch>
         <Route path="/" exact component={Home} />
-        <Route path="/About" exact component={About-Me} />
-        <Route path="/Projects" exact component={Projects} />
+        <Route path="/About" exact component={About} />
         <Route path="/Contact" exact component={Contact} />
       </Switch>
       <Footer />

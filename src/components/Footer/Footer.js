@@ -62,9 +62,8 @@ const Footer = () => {
                 <SocialMediaWrap>
                     <SocialLogo to='/'>
                         <SocialIcon/> 
-                        ULTRA
                         </SocialLogo>
-                        <WebsiteRights>ULTRA © 2020</WebsiteRights>
+                        <WebsiteRights>Made by Kyle Seto</WebsiteRights>
                     <SocialIcons>
                         <SocialIconLink href={'//github.com/kyleseto2'} target="_blank" aria-label="Github" rel="noopener noreferrer">
                             <FaGithub />
