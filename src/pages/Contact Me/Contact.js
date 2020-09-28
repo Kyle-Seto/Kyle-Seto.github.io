@@ -2,7 +2,7 @@ import React from 'react'
 import { homeObjThree} from './Data'
 import { InfoSection} from '../../components';
 
-const Home = () => {
+const Contact = () => {
     return (
         <>        
         <InfoSection {...homeObjThree} />             
@@ -10,4 +10,4 @@ const Home = () => {
     )
 };
 
-export default Home;
+export default Contact;
