@@ -5,11 +5,13 @@ import Home from './pages/HomePage/Home';
 import About from './pages/About Me/About';
 import Contact from './pages/Contact Me/Contact';
 import GlobalStyle from './globalStyles';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <Router>
       <GlobalStyle />
+      <ScrollToTop />
       <Navbar />
       <Switch>
         <Route path="/" exact component={Home} />
