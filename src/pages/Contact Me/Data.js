@@ -29,7 +29,7 @@ export const homeObjTwo = {
     img: require('../../images/about.svg'),
     alt: 'Image',
     start: 'true',
-    link: '/Contact-Me'
+    link: '/Contact'
 };
 
 export const homeObjThree = {
