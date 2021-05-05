@@ -1,9 +1,8 @@
 import React from 'react';
 import { Button } from '../../globalStyles';
-import { AiFillThunderbolt } from 'react-icons/ai';
-import { GiCrystalBars } from 'react-icons/gi';
-import { GiCutDiamond, GiRock } from 'react-icons/gi';
-import { GiFloatingCrystal } from 'react-icons/gi';
+import { IoIosWater } from 'react-icons/io';
+import { CgCardSpades } from 'react-icons/cg';
+import { BiPoll } from 'react-icons/bi';
 import { IconContext } from 'react-icons/lib';
 import {
   ProjectSection,
@@ -25,54 +24,54 @@ function Project() {
     <IconContext.Provider value={{ color: '#a9b3c1', size: 64 }}>
       <ProjectSection>
         <ProjectWrapper>
-          <ProjectHeading>Our Services</ProjectHeading>
+          <ProjectHeading>My Projects</ProjectHeading>
           <ProjectContainer>
-            <ProjectCard to='/sign-up'>
+            <ProjectCard to='/Projects'>
               <ProjectCardInfo>
                 <ProjectCardIcon>
-                  <GiRock />
+                  <CgCardSpades />
                 </ProjectCardIcon>
-                <ProjectCardPlan>Starter Pack</ProjectCardPlan>
-                <ProjectCardCost>$99.99</ProjectCardCost>
-                <ProjectCardLength>per month</ProjectCardLength>
+                <ProjectCardPlan>Straights</ProjectCardPlan>
+                <ProjectCardCost>C++ Game</ProjectCardCost>
+                <ProjectCardLength></ProjectCardLength>
                 <ProjectCardFeatures>
-                  <ProjectCardFeature>100 New Users</ProjectCardFeature>
-                  <ProjectCardFeature>$10,000 Budget</ProjectCardFeature>
-                  <ProjectCardFeature>Retargeting analytics</ProjectCardFeature>
+                  <ProjectCardFeature>OOP Programming Principles</ProjectCardFeature>
+                  <ProjectCardFeature>Made UML Diagrams</ProjectCardFeature>
+                  <ProjectCardFeature>Used C++ Compilers and Makefile</ProjectCardFeature>
                 </ProjectCardFeatures>
-                <Button primary>Choose Plan</Button>
+                <Button primary>View Git Repo</Button>
               </ProjectCardInfo>
             </ProjectCard>
-            <ProjectCard to='/sign-up'>
+            <ProjectCard to='/Projects'>
               <ProjectCardInfo>
                 <ProjectCardIcon>
-                  <GiCrystalBars />
+                  <IoIosWater />
                 </ProjectCardIcon>
-                <ProjectCardPlan>Gold Rush</ProjectCardPlan>
-                <ProjectCardCost>$299.99</ProjectCardCost>
-                <ProjectCardLength>per month</ProjectCardLength>
+                <ProjectCardPlan>Hydronizer</ProjectCardPlan>
+                <ProjectCardCost>Smart Coaster</ProjectCardCost>
+                <ProjectCardLength></ProjectCardLength>
                 <ProjectCardFeatures>
-                  <ProjectCardFeature>1000 New Users</ProjectCardFeature>
-                  <ProjectCardFeature>$50,000 Budget</ProjectCardFeature>
-                  <ProjectCardFeature>Lead Gen Analytics</ProjectCardFeature>
+                  <ProjectCardFeature>Chrome Extension and Webpage</ProjectCardFeature>
+                  <ProjectCardFeature>Tracks Water Consumption</ProjectCardFeature>
+                  <ProjectCardFeature>Times Water Breaks</ProjectCardFeature>
                 </ProjectCardFeatures>
-                <Button primary>Choose Plan</Button>
+                <Button primary>View Git Repo</Button>
               </ProjectCardInfo>
             </ProjectCard>
-            <ProjectCard to='/sign-up'>
+            <ProjectCard to='/Projects'>
               <ProjectCardInfo>
                 <ProjectCardIcon>
-                  <GiCutDiamond />
+                  <BiPoll />
                 </ProjectCardIcon>
-                <ProjectCardPlan>Diamond Kings</ProjectCardPlan>
-                <ProjectCardCost>$999.99</ProjectCardCost>
-                <ProjectCardLength>per month</ProjectCardLength>
+                <ProjectCardPlan>Canadian Election Poll</ProjectCardPlan>
+                <ProjectCardCost>Webapp</ProjectCardCost>
+                <ProjectCardLength></ProjectCardLength>
                 <ProjectCardFeatures>
-                  <ProjectCardFeature>Unlimited Users</ProjectCardFeature>
-                  <ProjectCardFeature>Unlimited Budget</ProjectCardFeature>
-                  <ProjectCardFeature>24/7 Support</ProjectCardFeature>
+                  <ProjectCardFeature>Developed in Django</ProjectCardFeature>
+                  <ProjectCardFeature>Tracks User Responses</ProjectCardFeature>
+                  <ProjectCardFeature>Has User Accounts and Superusers</ProjectCardFeature>
                 </ProjectCardFeatures>
-                <Button primary>Choose Plan</Button>
+                <Button primary>View Git Repo</Button>
               </ProjectCardInfo>
             </ProjectCard>
           </ProjectContainer>

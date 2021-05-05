@@ -48,12 +48,12 @@ export const ProjectCard = styled(Link)`
   height: 500px;
   text-decoration: none;
   border-radius: 4px;
+  transition: all 0.3s ease-out;
   &:nth-child(2) {
     margin: 24px;
   }
   &:hover {
     transform: scale(1.06);
-    transition: all 0.3s ease-out;
     color: #1c2237;
   }
   @media screen and (max-width: 960px) {
@@ -79,16 +79,16 @@ export const ProjectCardIcon = styled.div`
 
 export const ProjectCardPlan = styled.h3`
   margin-bottom: 5px;
-  font-size: 24px;
+  font-size: 20px;
 `;
 
 export const ProjectCardCost = styled.h4`
-  font-size: 40px;
+  font-size: 36px;
 `;
 
 export const ProjectCardLength = styled.p`
   font-size: 14px;
-  margin-bottom: 24px;
+  margin-bottom: 0px;
 `;
 
 export const ProjectCardFeatures = styled.ul`
@@ -96,7 +96,6 @@ export const ProjectCardFeatures = styled.ul`
   list-style: none;
   display: flex;
   flex-direction: column;
-  align-items: center;
   color: #a9b3c1;
 `;
 

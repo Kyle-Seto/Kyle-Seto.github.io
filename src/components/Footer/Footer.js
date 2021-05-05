@@ -12,13 +12,13 @@ const Footer = () => {
                         </SocialLogo>
                         <WebsiteRights>Made by Kyle Seto</WebsiteRights>
                     <SocialIcons>
-                        <SocialIconLink href={'//github.com/kyleseto2'} target="_blank" aria-label="Github" rel="noopener noreferrer">
+                        <SocialIconLink href={'https://github.com/kyleseto2'} target="_blank" aria-label="Github" rel="noopener noreferrer">
                             <FaGithub />
                         </SocialIconLink> 
-                        <SocialIconLink href={'//www.linkedin.com/in/kyle-seto2'} target="_blank" aria-label="Linkedin" rel="noopener noreferrer">
+                        <SocialIconLink href={'https://www.linkedin.com/in/kyle-seto2'} target="_blank" aria-label="Linkedin" rel="noopener noreferrer">
                             <FaLinkedin />
                         </SocialIconLink> 
-                        <SocialIconLink href={'//www.instagram.com/kyle.seto'} target="_blank" aria-label="Instagram" rel="noopener noreferrer">
+                        <SocialIconLink href={'https://www.instagram.com/kyle.seto'} target="_blank" aria-label="Instagram" rel="noopener noreferrer">
                             <FaInstagram />
                         </SocialIconLink> 
                     </SocialIcons>
