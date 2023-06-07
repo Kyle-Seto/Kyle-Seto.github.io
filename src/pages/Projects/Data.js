@@ -22,7 +22,7 @@ export const homeObjTwo = {
     lightTopLine: false,
     lightTextDesc: false,
     buttonLabel: 'Get In Touch',
-    description: 'Hi, I\'m Kyle, a software developer from Toronto. I enjoy solving my problems using code whether that be an app, website or anything in between. I\'m currently a 2nd year Math student at the University of Waterloo.',
+    description: 'Hi, I\'m Kyle, a software developer from Toronto. I enjoy solving my problems using code whether that be an app, website or anything in between. I\'m currently a 4th year Math student at the University of Waterloo.',
     headline: '',
     lightText: false,
     topLine: 'About Me',
